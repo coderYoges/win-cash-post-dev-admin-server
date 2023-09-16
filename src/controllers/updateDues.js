@@ -5,7 +5,7 @@ const updateDues = async (req, res) => {
     query: { userName: req.body.userName },
     update: {
       $set: {
-        clearedDues: true,
+        plBalance: 0
       },
     },
     database: "admin-panel",
